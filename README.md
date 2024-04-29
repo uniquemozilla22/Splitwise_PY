@@ -1,5 +1,7 @@
 # Splitwise Python Application
 
+## Version Number 1.0.0
+
 ## Overview
 
 This Python application provides a simple way to split an amount equally or sub-equally among participants in entries. It can be used for various purposes such as splitting bills, expenses, or any shared costs among a group of people.
