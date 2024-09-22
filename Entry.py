@@ -19,5 +19,7 @@ class Entry:
         try:
             self.price = float(price)
         except TypeError:
-            print("Price type is not in correct format. please enter again. Setting the ")
+            print(
+                "Price type is not in correct format. please enter again. Setting the "
+            )
             self.price = 0.00

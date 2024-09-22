@@ -62,7 +62,7 @@ def splitBetweenUsers(users: list[Users], entries: list[Entry]):
         if entry.splitBetween == "C":
             entry.setSplitBetween("")
             firstnameForUsers = map(lambda user: user.name[0], users)
-            
+
         for firstName in entry.splitBetween:
 
             userClass = list(filter(lambda user: user.name[0] == firstName, users))[0]
